@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/alternative.css">
      -->
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>Casper Verhaegen Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -39,6 +39,7 @@
         The "row" class is used for the Bootstrap grid.
       -->
       <header class="row resume-header justify-content-center">
+		  
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
@@ -48,7 +49,8 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img src="images/profilepic.JPG" alt="Portrait of Firstname Lastname" width="100" height="250" class="w-100 my-3">
+          <img src="images/profilepic.JPG" alt="Portrait of Firstname Lastname" width="100" height="200" class="w-100 my-3  rounded-circle">
+			
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
@@ -75,7 +77,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2><b>Professional Experience </b></h2>
+            <h2><b>Professional <span style="color: #52E7E1">Experience</span></b></h2>
             <p>&nbsp;</p>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
