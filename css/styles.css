@@ -3,6 +3,9 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
 /* Styles for the body */
 
 body {
@@ -12,9 +15,11 @@ body {
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
-
+H1 { 
+	font-family: 'Kdam Thmor Pro', sans-serif;
+}
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #9C7D6C;
 }
 
 .resume-main {
